@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('about', function () {
+    return view('about');
+});
+
+Route::get('pesan', function () {
+    return view('Pesan');
+});
+
+Route::get('pesan/kirim', function () {
+    return view('pesan_kirim');
+});
+
