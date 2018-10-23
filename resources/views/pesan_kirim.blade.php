@@ -85,7 +85,7 @@
                
                <div>
                    <p> <?php echo $_POST['pesan'];?> </p> <br/>
-                   <a href="pesan">Pesan</a>
+                   <a href="/">HOME</a>
 
                </div>
             </div>

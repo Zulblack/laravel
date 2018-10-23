@@ -23,7 +23,7 @@ Route::get('pesan', function () {
     return view('Pesan');
 });
 
-Route::get('pesan/kirim', function () {
+Route::post('pesan/kirim', function () {
     return view('pesan_kirim');
 });
 
